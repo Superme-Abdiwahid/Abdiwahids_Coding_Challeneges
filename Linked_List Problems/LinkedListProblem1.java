@@ -3,7 +3,7 @@
 import java.util.*;
 
 class Program {
-  public static class LinkedList {
+  public static class LinkedListProblem1 {
     public int value;
     public LinkedList next;
 
