@@ -1,6 +1,6 @@
 import java.util.Set.*;
 import java.util.*;
-class Challenge1{
+class ArrayProblem1{
 
    public static void main(String[] args){
    int[] array = {3,5,-4,8,11, 1, -1, 6};
