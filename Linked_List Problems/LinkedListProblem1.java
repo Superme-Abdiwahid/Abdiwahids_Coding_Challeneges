@@ -2,8 +2,8 @@
 // Copyright Abdiwahid Bishar Hajir 2022
 import java.util.*;
 
-class Program {
-  public static class LinkedListProblem1 {
+class LinkedListProblem1 {
+  public static class LinkedList {
     public int value;
     public LinkedList next;
 
@@ -29,7 +29,9 @@ class Program {
   
   // that stores data in the nodes. You may also assume you will always be given 
   
-  // a linked list that is always sorted from smallest to highest. An empty list has no duplicates
+  // a linked list that is always sorted from smallest to highest. An empty list has no duplicates.
+	
+// you may also not create new Nodes by calling new 
   
   public LinkedList removeDuplicatesFromLinkedList(LinkedList head) {
       LinkedList prev = null;  // prev --> null
