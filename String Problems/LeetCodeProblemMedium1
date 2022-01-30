@@ -1,0 +1,55 @@
+import java.util.*;
+public class LeetCodeProblemMedium1{
+   public static void main(String[] args){
+      int x = reverse(1534236469);
+      System.out.println(x);
+   }
+   
+   public static int reverse(int x){
+      StringBuilder builder = new StringBuilder();
+      int result = 0;
+      if(x >= Integer.MAX_VALUE || x <= Integer.MIN_VALUE){
+         return 0;
+      }else{
+         long temp =(long) x;
+         int length = 0;
+         while(Math.abs(temp) > 0){
+            temp = temp / 10;
+            length++;
+         }
+         int sum = x;
+         for(sum = x; sum > 0; sum = sum){
+            if(sum % 10 == 0){
+               sum = sum / 10;
+            }else{
+               break;
+            }
+         
+         }
+         if(sum < 0){
+            builder.append(sum);
+         }else{
+            builder.append(sum);
+         }
+         builder.reverse();
+         if(x < 0){
+            sum = Math.abs(sum);
+            builder.append(sum);
+            builder.reverse();
+            builder.delete(0,length + 1);
+            builder.reverse();
+            builder.insert(0, "-");
+         
+         }
+      }
+      try{
+         result = Integer.parseInt(builder.toString());
+      }catch(NumberFormatException ex){
+         return 0;
+      }
+      
+      return result;
+   }
+
+
+}
