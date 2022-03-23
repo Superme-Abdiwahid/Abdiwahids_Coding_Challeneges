@@ -2,7 +2,7 @@
 import java.util.*;
 
 class BinarySearch {
-  public static int binarySearch(int[] array, int target) {
+  public static int binarySearch(int[] array, int target) throws RuntimeException{
     // Write your code here.
 //     //Built in binary search.
 //     Arrays.sort(array);
@@ -82,7 +82,7 @@ class BinarySearch {
 	// }
 	
 	// iterative solution
-	private static int binarySearch(int[] array, int target, int leftPointer, int rightPointer){
+	private static int binarySearch(int[] array, int target, int leftPointer, int rightPointer)throws RuntimeException{
 		while(leftPointer <= rightPointer){
 			int middle = (leftPointer + rightPointer) / 2;
 			int match = array[middle];
