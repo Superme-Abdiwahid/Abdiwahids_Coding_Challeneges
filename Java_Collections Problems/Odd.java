@@ -1,11 +1,11 @@
 /* @Author- Abdiwahid Bishar Hajir */
-class Challenge2{
+class Odd{
 
 //Write a method hasOdd that takes a Set of integers as a 
 // parameter and that returns true if the set contains at 
 // least one odd integer, and false otherwise. 
 // If passed the empty set, your method should return false.
-   public static boolean hasOdd(Set<Integer> set){
+   publicÂ staticÂ booleanÂ hasOdd(Set<Integer>Â set){
       Iterator<Integer> inter = set.iterator();
       while(inter.hasNext()){
       int number = inter.next();
