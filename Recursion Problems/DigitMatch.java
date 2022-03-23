@@ -1,5 +1,6 @@
 // Author- Abdiwahid Bishar Hajir
 public class DigitMatch{
+ 
    
  /*  Write a recursive method digitMatch that takes two nonnegative 
    integers as parameters and that returns the number of digits that 
@@ -27,12 +28,12 @@ digitMatch(380, 0)              1
 digitMatch(123456, 654321)      0
 digitMatch(1234567, 67)         2*/
 
-   public int digitMatch(int number1, int number2){
+   public int digitMatch(int number1, int number2)throws StackOverflowError{
       return digitMatch(number1, number2, 0, 0);
    
    }
    
-   public int digitMatch(int number1, int number2, int count, int start){
+   public int digitMatch(int number1, int number2, int count, int start) throws RuntimeException{
       if(number1 < 0 || number2 < 0){
          throw new IllegalArgumentException();
       }
