@@ -19,11 +19,11 @@
 
 Two binary trees are considered the same if they are structurally identical, and the nodes have the same value. */
 class SameTree {
-    public boolean isSameTree(TreeNode p, TreeNode q) {
+    public boolean isSameTree(TreeNode p, TreeNode q) throws RuntimeException{
        return  isSameTreeHelper(p, q);
     }
     
-    public boolean isSameTreeHelper(TreeNode p, TreeNode q) {
+    public boolean isSameTreeHelper(TreeNode p, TreeNode q) throws RuntimeException{
         if(p == null && q == null){
             return true;
         }else if(p == null && q != null || q == null && p != null){
