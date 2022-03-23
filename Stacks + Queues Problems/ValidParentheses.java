@@ -1,3 +1,4 @@
+// Author- Abdiwahid Bishar Hajir
 class ValidParentheses {
     public boolean isValid(String str) {
          if(str.charAt(str.length() - 1) == '[' || str.charAt(str.length() - 1) == '('
