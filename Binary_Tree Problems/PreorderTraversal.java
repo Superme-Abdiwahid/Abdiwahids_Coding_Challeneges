@@ -15,14 +15,14 @@
  */
 class  PreorderTraversal {
     
-    public List<Integer> preorderTraversal(TreeNode root) {
+    public List<Integer> preorderTraversal(TreeNode root) throws RuntimeException{
         List<Integer> list = new LinkedList<>();
         preorderTraversal(root, list);
         return list;
     }
     
     
-     public void preorderTraversal(TreeNode root, List<Integer> list) {
+     public void preorderTraversal(TreeNode root, List<Integer> list) throws RuntimeException{
         if(root == null){
             return;
         }else{
