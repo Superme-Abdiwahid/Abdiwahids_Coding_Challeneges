@@ -1,3 +1,4 @@
+// Author- Abdiwahid Bishar Hajir
 public class DigitMatch{
    
  /*  Write a recursive method digitMatch that takes two nonnegative 
