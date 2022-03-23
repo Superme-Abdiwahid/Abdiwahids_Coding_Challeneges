@@ -23,7 +23,7 @@ Input: s = "luffy is still joyboy"
 Output: 6
 Explanation: The last word is "joyboy" with length 6. */
     
-    public static int lengthOfLastWord(String s) {
+    public static int lengthOfLastWord(String s) throws ArrayIndexOutOfBoundsException{
         String[] array = s.split(" ");
         return array[array.length - 1].length();
         
