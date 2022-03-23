@@ -14,14 +14,14 @@
  * }
  */
 class InorderTraversal {
-    public List<Integer> inorderTraversal(TreeNode root) {
+    public List<Integer> inorderTraversal(TreeNode root)throws RuntimeException{
      
         return inorderTraversal(root, new LinkedList<>());
   
     }
     
     
-    public List<Integer> inorderTraversal(TreeNode root, List<Integer> list){
+    public List<Integer> inorderTraversal(TreeNode root, List<Integer> list)throws RuntimeException{
         if(root != null){
             if(root.left == null && root.right == null){
                 list.add(root.val);
