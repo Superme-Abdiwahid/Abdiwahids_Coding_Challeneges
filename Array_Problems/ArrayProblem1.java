@@ -17,7 +17,7 @@ class ArrayProblem1{
    // your method should return a new array that stores
    // the following values [-11, 1] because -11 and 1 added
    // togther gives you 10 which is equal to the target value.
-   public static int[] targetSum(int[] array, int targetSum){
+   public static int[] targetSum(int[] array, int targetSum)throws UnsupportedOperationException{
       Set<Integer> set = new HashSet<>(); // we use a hashSet because
       // its 0(1) operation but O(n) space
       for(int i = 0; i <= array.length - 1; ++i){
