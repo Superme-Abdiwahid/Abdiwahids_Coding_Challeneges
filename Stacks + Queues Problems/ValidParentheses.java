@@ -1,6 +1,6 @@
 // Author- Abdiwahid Bishar Hajir
 class ValidParentheses {
-    public boolean isValid(String str) {
+    public boolean isValid(String str) throws RuntimeException{
          if(str.charAt(str.length() - 1) == '[' || str.charAt(str.length() - 1) == '('
       || str.charAt(str.length() - 1) == '{' || Character.isLetter(str.charAt(str.length() - 1))){
       return false;
