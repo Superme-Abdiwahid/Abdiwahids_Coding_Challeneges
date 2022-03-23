@@ -1,6 +1,6 @@
 // Author- Abdiwahid Bishar Hajir
 class Palindrome {
-     public static boolean isPalindrome(String word){
+     public static boolean isPalindrome(String word)throws RuntimeException{
       StringBuilder builder = new StringBuilder();
       for(int i = 0; i <= word.length() - 1; ++i){
          if(Character.isLetterOrDigit(word.charAt(i))){
@@ -12,7 +12,7 @@ class Palindrome {
    
    }
    
-   private static boolean isPalindrome(String word, int front , int back){
+   private static boolean isPalindrome(String word, int front , int back)throws RuntimeException{
       if(word.isEmpty()){
          return true;
       }else if(front > back || back <= 0){
