@@ -1,3 +1,4 @@
+// Author- Abdiwahid Bishar Hajir
 import java.util.Set.*;
 import java.util.*;
 class ArrayProblem1{
