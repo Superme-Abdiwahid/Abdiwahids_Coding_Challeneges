@@ -32,7 +32,7 @@ public class LeetCodeProblem2 {
 // Output: false
 // Explanation: Reads 01 from right to left. 
 // Therefore it is not a palindrome.
-   public static boolean isPalindrome(int x) {
+   public static boolean isPalindrome(int x) throws StringIndexOutOfBoundsException{
       StringBuilder string = new StringBuilder();
       StringBuilder builder = new StringBuilder();
       builder.append(x);
