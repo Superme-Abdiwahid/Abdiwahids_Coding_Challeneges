@@ -20,7 +20,7 @@ public class ArrayProblem2{
    //array sorted the orginal array [1,3,4,5,5,8] and squared
    // every element at each index. Your task is the write 
    // the code to be able to do this processing with the array,
-   public static int[] squaredArray(int... array){
+   public static int[] squaredArray(int... array)throws RuntimeException{
       int[] result = new int[array.length];
       Arrays.sort(array);
       for(int i = 0; i <= array.length - 1; ++i){
