@@ -1,4 +1,4 @@
-class MapProblem2{
+class Valid{
     
     //-----------------------------------------------------------------------
     // Your task to write a method validAnagrams
