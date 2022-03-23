@@ -34,7 +34,7 @@ class LinkedListProblem1 {
 	
 // you may also not create new Nodes by calling new 
   
-  public LinkedList removeDuplicatesFromLinkedList(LinkedList head) {
+  public LinkedList removeDuplicatesFromLinkedList(LinkedList head) throws NullPointerException{
       LinkedList prev = null;  // prev --> null
       LinkedList lookAhead = null;  // prev --> null
       LinkedList seen = null; // seen --> null
