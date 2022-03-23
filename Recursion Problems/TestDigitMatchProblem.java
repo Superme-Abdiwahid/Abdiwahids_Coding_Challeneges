@@ -1,5 +1,4 @@
 // Author- Abdiwahid Bishar Hajir
-
 // a class to test to Digit match recurisve problem
 
 public class TestDigitMatchProblem{
@@ -18,7 +17,7 @@ public class TestDigitMatchProblem{
    }
    //9  8  9  8  9  8  9  8
    //            9  9  9  9
-   public static int test1(int answer, int student){
+   public static int test1(int answer, int student) throws UnsupportedOperationException{
       int count = 0;
       try{
          System.out.println();
@@ -38,7 +37,7 @@ public class TestDigitMatchProblem{
       return count;
    }
    
-   public static int test2(int answer, int student){
+   public static int test2(int answer, int student) throws UnsupportedOperationException{
       int count = 0;
       try{
          System.out.println();
@@ -58,7 +57,7 @@ public class TestDigitMatchProblem{
    }
    
    
-   public static int test3(int answer, int student){
+   public static int test3(int answer, int student) throws UnsupportedOperationException{
       int count = 0;
       try{
          System.out.println();
@@ -78,7 +77,7 @@ public class TestDigitMatchProblem{
    }
    // 2 9   8  8  9 2
    //       7   8 9  2
-   public static int test4(int answer, int student){
+   public static int test4(int answer, int student) throws UnsupportedOperationException{
       int count = 0;
       try{
          System.out.println();
@@ -97,7 +96,7 @@ public class TestDigitMatchProblem{
       return count;
    }
    
-   public static int test5(int answer, int student){
+   public static int test5(int answer, int student)throws UnsupportedOperationException{
       int count = 0;
       try{
          System.out.println();
@@ -119,7 +118,7 @@ public class TestDigitMatchProblem{
    //1  1   1  1  1  1  1  1
    //             1   1  1  1  
    // expecting 1
-   public static int test6(int answer, int student){
+   public static int test6(int answer, int student)throws UnsupportedOperationException{
       int count = 0;
       try{
          System.out.println();
@@ -140,7 +139,7 @@ public class TestDigitMatchProblem{
    //9   8   9  8  9  8  9  8
   //               9  9  9  9
   // 4
-   public static int test7(int answer, int student){
+   public static int test7(int answer, int student)throws UnsupportedOperationException{
       int count = 0;
       try{
          System.out.println();
@@ -161,7 +160,7 @@ public class TestDigitMatchProblem{
    //1899
  //      99
  // 2
-   public static int test8(int answer, int student){
+   public static int test8(int answer, int student)throws UnsupportedOperationException{
       int count = 0;
       try{
          System.out.println();
@@ -185,7 +184,7 @@ public class TestDigitMatchProblem{
    // 1  4 6 7 8 9 0
    
    
-   public static int test9(int answer, int student){
+   public static int test9(int answer, int student)throws UnsupportedOperationException{
       int count = 0;
       try{
          System.out.println();
@@ -209,7 +208,7 @@ public class TestDigitMatchProblem{
    // 4  3  6  6   7 8  9 9 9 9
    
    
-   public static int test10(int answer, int student){
+   public static int test10(int answer, int student)throws UnsupportedOperationException{
       int count = 0;
       try{
          System.out.println();
@@ -230,7 +229,7 @@ public class TestDigitMatchProblem{
    }
    
    
-   public static int test11(DigitMatch s){
+   public static int test11(DigitMatch s)throws IllegalArgumentException{
       int count = 0;
       try{
       System.out.println();
@@ -253,7 +252,7 @@ public class TestDigitMatchProblem{
    
    //4  3   6  6  7  8  9  9  9  9
    
-   public static int test12(DigitMatch s){
+   public static int test12(DigitMatch s)throws IllegalArgumentException{
       int count = 0;
       try{
       System.out.println();
@@ -272,7 +271,7 @@ public class TestDigitMatchProblem{
       return count;
    }
    
-   public static int runAllTests(DigitMatch student){
+   public static int runAllTests(DigitMatch student)throws RuntimeException{
    int all = 0;
       int count1 =   test1(1, student.digitMatch(38, 34));
       all += count1;
