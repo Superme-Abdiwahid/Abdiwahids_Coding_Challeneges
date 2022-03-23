@@ -1,3 +1,4 @@
+// Author- Abdiwahid Bishar Hajir
 import java.util.*;
 public class ArrayProblem2{
    public static void main(String[] args){
