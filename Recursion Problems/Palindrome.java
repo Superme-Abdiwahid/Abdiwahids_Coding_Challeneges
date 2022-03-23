@@ -1,3 +1,4 @@
+// Author- Abdiwahid Bishar Hajir
 class Palindrome {
      public static boolean isPalindrome(String word){
       StringBuilder builder = new StringBuilder();
