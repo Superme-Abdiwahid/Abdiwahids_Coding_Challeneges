@@ -1,5 +1,5 @@
 import java.util.*;
-public class MapProblem1{
+public class Game{
    public static void main(String[] args){
    //[ [James:10, Jordan:8, Don:0, Ory:13, London:2, Kittle:1] ]
    List<List<String>> list = new LinkedList<>();
