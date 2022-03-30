@@ -1,7 +1,7 @@
 // Author- Abdiwahid Bishar Hajir
 import java.util.*;
 
-public class LeetCodeProblem2 {
+public class Palindrome {
    public static void main(String[] args){
       StringBuilder s = new StringBuilder();
       boolean yes = isPalindrome(121);
