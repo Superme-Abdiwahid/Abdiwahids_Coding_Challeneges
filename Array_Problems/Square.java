@@ -1,6 +1,6 @@
 // Author- Abdiwahid Bishar Hajir
 import java.util.*;
-public class ArrayProblem2{
+public class Square{
    public static void main(String[] args){
    int[] array = {5,8,1,3,4,5};
    int[] newArray = squaredArray(array);
