@@ -2,7 +2,7 @@
 // Copyright Abdiwahid Bishar Hajir 2022
 import java.util.*;
 
-class LinkedListProblem1 {
+class RemoveDuplicates {
   public static class LinkedList {
     public int value;
     public LinkedList next;
